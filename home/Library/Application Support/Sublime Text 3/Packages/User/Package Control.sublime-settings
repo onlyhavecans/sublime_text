@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Ansible",
+		"Ansible Vault",
+		"Dockerfile Syntax Highlighting",
+		"FileManager",
+		"Github Tools",
+		"INI",
+		"Jinja2",
+		"Markdown Extended",
+		"Marked App Menu",
+		"Package Control",
+		"Pretty JSON",
+		"Project Specific Syntax Settings",
+		"SublimeLinter",
+		"SublimeLinter-contrib-ansible-lint",
+		"SublimeLinter-contrib-markdownlint",
+		"SublimeLinter-shellcheck",
+		"Terminal",
+		"Theme - Monokai Pro",
+		"Whitespace"
+	]
+}

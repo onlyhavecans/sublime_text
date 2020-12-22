@@ -1,0 +1,6 @@
+// SublimeLinter Settings - User
+{
+	"paths": {
+		"osx": ["/usr/local/bin"]
+	}
+}
