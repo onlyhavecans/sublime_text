@@ -3,7 +3,7 @@
 	[
 		"ansible",
 		"dnsimple",
-		"erldnsimple",
+		"erldnsimple"
 	],
 	"auto_complete_commit_on_tab": true,
 	"auto_find_in_selection": true,
@@ -30,5 +30,5 @@
 	"spell_check": false,
 	"tab_size": 2,
 	"theme": "Monokai Pro (Filter Spectrum).sublime-theme",
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": true
 }
