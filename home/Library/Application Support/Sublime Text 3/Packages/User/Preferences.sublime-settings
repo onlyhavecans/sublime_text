@@ -18,11 +18,13 @@
 	[
 		"Vintage"
 	],
-	"line_padding_bottom": 2,
+	"line_padding_bottom": 1.5,
+	"line_padding_top": 2,
 	"monokai_pro_highlight_open_folders": true,
 	"monokai_pro_label_font_size": 14,
 	"monokai_pro_sidebar_font_size": 14,
 	"monokai_pro_sidebar_lighter": true,
+	"monokai_pro_small_scrollbar": true,
 	"remove_trailing_whitespace_on_save": true,
 	"save_on_focus_lost": true,
 	"spell_check": false,

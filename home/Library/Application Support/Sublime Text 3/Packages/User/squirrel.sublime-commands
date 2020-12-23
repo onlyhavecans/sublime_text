@@ -1,0 +1,7 @@
+[
+	// Ops Report Cleaner
+	{
+		"caption": "Clean Ops Notes",
+		"command": "ops_clean",
+	},
+]
