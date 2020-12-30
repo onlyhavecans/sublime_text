@@ -16,6 +16,7 @@
 		"Jinja2",
 		"LSP",
 		"Marked App Menu",
+		"Origami",
 		"Package Control",
 		"Pretty JSON",
 		"Project Specific Syntax Settings",
@@ -24,7 +25,7 @@
 		"SublimeLinter-contrib-ansible-lint",
 		"SublimeLinter-contrib-markdownlint",
 		"SublimeLinter-shellcheck",
-		"Terminal",
+		"Terminus",
 		"Theme - Monokai Pro",
 		"Whitespace"
 	]
