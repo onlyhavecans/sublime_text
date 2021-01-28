@@ -25,6 +25,7 @@
 		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-ansible-lint",
 		"SublimeLinter-contrib-markdownlint",
+		"SublimeLinter-rubocop",
 		"SublimeLinter-shellcheck",
 		"Terminus",
 		"Theme - Monokai Pro",
