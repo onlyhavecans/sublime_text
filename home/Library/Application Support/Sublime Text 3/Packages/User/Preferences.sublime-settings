@@ -16,7 +16,7 @@
 	"ignore_whitespace_only_lines": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"line_padding_bottom": 1.5,
 	"line_padding_top": 2,
@@ -30,5 +30,5 @@
 	"spell_check": false,
 	"tab_size": 2,
 	"theme": "Monokai Pro (Filter Spectrum).sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
 }

@@ -17,6 +17,7 @@
 		"INI",
 		"Jinja2",
 		"LSP",
+		"LSP-bash",
 		"Marked App Menu",
 		"Origami",
 		"Package Control",
@@ -30,6 +31,6 @@
 		"SublimeLinter-shellcheck",
 		"Terminus",
 		"Theme - Monokai Pro",
-		"Whitespace"
-	]
+		"Whitespace",
+	],
 }
