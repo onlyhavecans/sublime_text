@@ -16,8 +16,8 @@
 	"ignore_whitespace_only_lines": false,
 	"ignored_packages":
 	[
-		"Vintage",
 		"Rust",
+		"Vintage",
 	],
 	"line_padding_bottom": 1.5,
 	"line_padding_top": 2,
