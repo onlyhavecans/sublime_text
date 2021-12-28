@@ -17,6 +17,7 @@
 		"Jinja2",
 		"LSP",
 		"LSP-bash",
+		"LSP-file-watcher-chokidar",
 		"LSP-rust-analyzer",
 		"Marked App Menu",
 		"Origami",

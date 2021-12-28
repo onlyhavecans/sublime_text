@@ -1,9 +1,0 @@
-[
-  {
-        "keys": ["command+shift+o"],
-        "command": "terminus_open",
-        "args": {
-            "cwd": "${directory_path:${folder}}"
-        }
-    }
-]

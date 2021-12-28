@@ -1,0 +1,4 @@
+{
+  "rust_syntax_checking_method": "clippy",
+  "rust_env": {"PATH": "$PATH:$HOME/.cargo/bin"}
+}
