@@ -4,13 +4,5 @@
 		{
 			"path": "."
 		},
-		{
-			"name": "Library User Folder",
-			"path": "/Users/dos/Library/Application Support/Sublime Text 3/Packages/User"
-		},
-		{
-			"name": "Repo User Folder",
-			"path": "home/Library/Application Support/Sublime Text 3/Packages/User"
-		}
 	]
 }
