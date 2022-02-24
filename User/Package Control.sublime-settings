@@ -25,6 +25,7 @@
 		"Pretty JSON",
 		"Project Specific Syntax Settings",
 		"Rust Enhanced",
+		"RustFmt",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-ansible-lint",

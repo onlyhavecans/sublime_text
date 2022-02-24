@@ -1,10 +1,6 @@
 // Settings in here override those in "LSP-rust-analyzer/LSP-rust-analyzer.sublime-settings"
 {
   "settings": {
-    // "rust-analyzer.terminusUsePanel": true,
     "rust-analyzer.inlayHints.parameterHints": false,
-    "rust-analyzer.runnableEnv": {
-      "PATH": "$PATH:$HOME/.cargo/bin"
-    },
   }
 }

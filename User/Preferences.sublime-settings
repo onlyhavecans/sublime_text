@@ -5,7 +5,6 @@
 		"dnsimple",
 		"erldnsimple"
 	],
-	"auto_complete_commit_on_tab": true,
 	"auto_find_in_selection": true,
 	"color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
 	"create_window_at_startup": false,
