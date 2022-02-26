@@ -1,0 +1,5 @@
+{
+  "indent": 2,
+  "jq_binary": "/usr/bin/local/jq",
+  "sort_keys": true
+}

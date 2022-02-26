@@ -2,5 +2,6 @@
 {
   "settings": {
     "rust-analyzer.inlayHints.parameterHints": false,
+    "rust-analyzer.checkOnSave.command": "clippy"
   }
 }
