@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"All Autocomplete",
 		"Ansible",
 		"Ansible Vault",
 		"Chef",
@@ -15,7 +14,6 @@
 		"Github Tools",
 		"Golang Build",
 		"Gomod",
-		"INI",
 		"Jinja2",
 		"LSP",
 		"LSP-bash",

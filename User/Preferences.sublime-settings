@@ -10,7 +10,7 @@
   "create_window_at_startup": false,
   "ensure_single_trailing_newline": true,
   "font_face": "JetBrains Mono",
-  "font_size": 16,
+  "font_size": 15,
   "ignore_whitespace_on_current_line": true,
   "ignore_whitespace_only_lines": false,
   "ignored_packages":
