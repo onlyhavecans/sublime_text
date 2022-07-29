@@ -11,6 +11,5 @@
   "show_references_in_quick_panel": true,
   "log_debug": true,
   // These two are recommended by LSP-json as replacement for deprecated only_show_lsp_completions
-  "inhibit_snippet_completions": true,
   "inhibit_word_completions": true,
 }

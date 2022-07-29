@@ -9,6 +9,7 @@
   "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
   "create_window_at_startup": false,
   "ensure_single_trailing_newline": true,
+  "folder_exclude_patterns": [".git", ".idea", ".vscode", "target", "dist", "packages"],
   "font_face": "JetBrains Mono",
   "font_size": 15,
   "ignore_whitespace_on_current_line": true,
