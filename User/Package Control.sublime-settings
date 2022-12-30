@@ -19,6 +19,7 @@
 		"LSP",
 		"LSP-file-watcher-chokidar",
 		"LSP-gopls",
+		"LSP-json",
 		"LSP-pyright",
 		"LSP-rust-analyzer",
 		"LSP-yaml",
