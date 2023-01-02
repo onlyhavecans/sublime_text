@@ -5,11 +5,6 @@
     "source.fixAll": true,
     "source.organizeImports": true,
   },
-  "diagnostics_gutter_marker": "sign",
   "show_inlay_hints": true,
-  // Recommended by https://agniva.me/gopls/2021/01/02/setting-up-gopls-sublime.html
-  // except log_stderr mentioned there is no longer recognized.
-  "show_references_in_quick_panel": true,
-  // These two are recommended by LSP-json as replacement for deprecated only_show_lsp_completions
   "inhibit_word_completions": true,
 }
