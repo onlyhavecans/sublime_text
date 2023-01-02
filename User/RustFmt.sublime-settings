@@ -1,4 +1,0 @@
-// RustFmt Settings - User
-{
-  "executable": ["rustfmt", "--edition", "2021"]
-}

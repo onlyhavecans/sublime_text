@@ -1,6 +1,5 @@
 {
-  "added_words":
-  [
+  "added_words": [
     "ansible",
     "dnsimple",
     "erldnsimple"
@@ -9,8 +8,7 @@
   "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
   "create_window_at_startup": false,
   "ensure_single_trailing_newline": true,
-  "folder_exclude_patterns":
-  [
+  "folder_exclude_patterns": [
     ".git",
     ".idea",
     ".vscode",
@@ -22,8 +20,7 @@
   "font_size": 14,
   "ignore_whitespace_on_current_line": true,
   "ignore_whitespace_only_lines": false,
-  "ignored_packages":
-  [
+  "ignored_packages": [
     "Rust",
     "Six",
     "Vintage",
