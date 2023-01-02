@@ -1,12 +1,12 @@
 {
-  "added_words": [
-    "ansible",
-    "dnsimple",
-    "erldnsimple"
-  ],
+  // Always my favorite font
+  "font_face": "JetBrains Mono",
+  "font_size": 14,
+  "line_padding_bottom": 1,
+  // Window Behavior
   "auto_find_in_selection": true,
   "create_window_at_startup": false,
-  "ensure_single_trailing_newline": true,
+  "save_on_focus_lost": true,
   "folder_exclude_patterns": [
     ".git",
     ".idea",
@@ -15,21 +15,26 @@
     "dist",
     "packages"
   ],
-  "font_face": "JetBrains Mono",
-  "font_size": 14,
+  // I am so pickly about whitespace
+  "ensure_single_trailing_newline": true,
   "ignore_whitespace_on_current_line": true,
   "ignore_whitespace_only_lines": false,
+  "remove_trailing_whitespace_on_save": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  // Packaging
   "ignored_packages": [
     "Rust",
     "Six",
     "Vintage",
     "Vintageous",
   ],
-  "line_padding_bottom": 1,
   "neovintageous_build_version": 12700,
-  "remove_trailing_whitespace_on_save": true,
-  "save_on_focus_lost": true,
+  // Spellchecking
   "spell_check": false,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
+  "added_words": [
+    "ansible",
+    "dnsimple",
+    "erldnsimple"
+  ],
 }
