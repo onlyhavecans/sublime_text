@@ -1,4 +1,58 @@
 [
+  // LSP/IDE commands
+  // Show a list of available LSP commands
+  {
+    "keys": ["f1"],
+    "command": "show_overlay",
+    "args": {"overlay": "command_palette", "text": "LSP: "}
+  },
+  // Rename Symbol
+  {
+    "keys": ["f2"],
+    "command": "lsp_symbol_rename",
+    "context": [{"key": "lsp.session_with_capability", "operand": "renameProvider"}]
+  },
+  // Format File
+  {
+    "keys": ["f3"],
+    "command": "lsp_format_document",
+    "context": [{"key": "lsp.session_with_capability", "operand": "documentFormattingProvider | documentRangeFormattingProvider"}]
+  },
+  // Find References (side-by-side)
+  {
+    "keys": ["shift+f12"],
+    "command": "lsp_symbol_references",
+    "args": {"side_by_side": true, "fallback": false},
+    "context": [{"key": "lsp.session_with_capability", "operand": "referencesProvider"}]
+  },
+  // Goto Definition
+  {
+    "keys": ["f12"],
+    "command": "lsp_symbol_definition",
+    "args": {"side_by_side": false, "force_group": true, "fallback": false, "group": -1},
+    "context": [
+      {"key": "lsp.session_with_capability", "operand": "definitionProvider"},
+      {"key": "auto_complete_visible", "operand": false}
+    ]
+  },
+  // Goto Definition (side-by-side)
+  {
+    "keys": ["primary+f12"],
+    "command": "lsp_symbol_definition",
+    "args": {"side_by_side": true, "force_group": true, "fallback": false, "group": -1},
+    "context": [
+      {"key": "lsp.session_with_capability", "operand": "definitionProvider"},
+      {"key": "auto_complete_visible", "operand": false}
+    ]
+  },
+  // Run Code Action
+  {
+    "keys": ["command+."],
+    "command": "lsp_code_actions",
+    "context": [{"key": "lsp.session_with_capability", "operand": "codeActionProvider"}]
+  },
+
+  // Terminus
   {
     "keys": ["command+option+o"],
     "command": "terminus_open",
