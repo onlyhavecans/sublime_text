@@ -2,7 +2,7 @@
 {
 	"no_column_highlights_line": true,
 	"paths": {
-		"osx": ["/usr/local/bin"]
+		"osx": ["/usr/local/bin", "/opt/homebrew/bin"]
 	},
 	"show_panel_on_save": "window",
 	"gutter_theme": "Packages/Theme - Monokai Pro/Monokai Pro.gutter-theme",

@@ -1,8 +1,5 @@
 // GitGutter Settings - User
 {
-  "git_binary": {
-    "osx": "/usr/local/bin/git",
-  },
   "show_line_annotation": "false",
   "show_status_bar_text": false,
 }

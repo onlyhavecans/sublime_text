@@ -9,9 +9,17 @@
   "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
   "create_window_at_startup": false,
   "ensure_single_trailing_newline": true,
-  "folder_exclude_patterns": [".git", ".idea", ".vscode", "target", "dist", "packages"],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    ".idea",
+    ".vscode",
+    "target",
+    "dist",
+    "packages"
+  ],
   "font_face": "JetBrains Mono",
-  "font_size": 15,
+  "font_size": 14,
   "ignore_whitespace_on_current_line": true,
   "ignore_whitespace_only_lines": false,
   "ignored_packages":
@@ -23,8 +31,6 @@
   ],
   "line_padding_bottom": 1,
   "monokai_pro_highlight_open_folders": true,
-  "monokai_pro_label_font_size": 14,
-  "monokai_pro_sidebar_font_size": 14,
   "monokai_pro_sidebar_lighter": true,
   "monokai_pro_small_scrollbar": true,
   "neovintageous_build_version": 12700,
