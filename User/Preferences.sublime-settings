@@ -5,7 +5,6 @@
     "erldnsimple"
   ],
   "auto_find_in_selection": true,
-  "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
   "create_window_at_startup": false,
   "ensure_single_trailing_newline": true,
   "folder_exclude_patterns": [
@@ -27,14 +26,10 @@
     "Vintageous",
   ],
   "line_padding_bottom": 1,
-  "monokai_pro_highlight_open_folders": true,
-  "monokai_pro_sidebar_lighter": true,
-  "monokai_pro_small_scrollbar": true,
   "neovintageous_build_version": 12700,
   "remove_trailing_whitespace_on_save": true,
   "save_on_focus_lost": true,
   "spell_check": false,
   "tab_size": 2,
-  "theme": "Monokai Pro (Filter Spectrum).sublime-theme",
   "translate_tabs_to_spaces": true,
 }
