@@ -5,7 +5,7 @@
 		},
 	],
 	"settings": {
-		"lsp_format_on_save": true,
+		"lsp_format_on_save": false,
 		"LSP": {
 			"LSP-pyright": {
 				"settings": {
