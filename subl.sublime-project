@@ -6,6 +6,7 @@
 	],
 	"settings": {
 		"lsp_format_on_save": false,
+		"tab_size": 2,
 		"LSP": {
 			"LSP-pyright": {
 				"settings": {

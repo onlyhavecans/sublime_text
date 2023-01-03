@@ -20,7 +20,6 @@
   "ignore_whitespace_on_current_line": true,
   "ignore_whitespace_only_lines": false,
   "remove_trailing_whitespace_on_save": true,
-  "tab_size": 2,
   "translate_tabs_to_spaces": true,
   // Packaging
   "ignored_packages": [
