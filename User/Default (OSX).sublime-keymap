@@ -51,6 +51,14 @@
     "command": "lsp_code_actions",
     "context": [{"key": "lsp.session_with_capability", "operand": "codeActionProvider"}]
   },
+  // Run Code Lens
+  {
+    "keys": ["ctrl+r"],
+    "command": "lsp_code_lens",
+    "context": [{"key": "lsp.session_with_capability", "operand": "codeLensProvider"}]
+  },
+
+
 
   // Terminus
   {
