@@ -15,7 +15,7 @@
     "dist",
     "packages"
   ],
-  // I am so pickly about whitespace
+  // I am so picky about whitespace
   "ensure_single_trailing_newline": true,
   "ignore_whitespace_on_current_line": true,
   "ignore_whitespace_only_lines": false,

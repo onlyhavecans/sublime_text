@@ -32,6 +32,7 @@
 		"SublimeLinter-contrib-ansible-lint",
 		"SublimeLinter-contrib-markdownlint",
 		"SublimeLinter-contrib-yamllint",
+		"SublimeLinter-flake8",
 		"SublimeLinter-golangcilint",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-shellcheck",
