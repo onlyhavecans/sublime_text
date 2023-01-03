@@ -6,5 +6,12 @@
 	],
 	"settings": {
 		"lsp_format_on_save": true,
+		"LSP": {
+			"LSP-pyright": {
+				"settings": {
+					"pyright.dev_environment": "sublime_text"
+				}
+			}
+		},
 	}
 }

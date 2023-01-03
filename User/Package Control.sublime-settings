@@ -21,7 +21,6 @@
 		"LSP-pyright",
 		"LSP-rust-analyzer",
 		"LSP-yaml",
-		"Marked App Menu",
 		"NeoVintageous",
 		"Origami",
 		"Package Control",
@@ -38,6 +37,5 @@
 		"SublimeLinter-shellcheck",
 		"Terminus",
 		"TOML",
-		"Whitespace",
 	],
 }

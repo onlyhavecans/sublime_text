@@ -1,0 +1,12 @@
+[
+	// Open with marked
+	{
+		"caption": "Marked 2: Open In",
+		"command": "open_in_marked"
+	},
+	// Ops Report Cleaner
+	{
+		"caption": "Clean Ops Notes",
+		"command": "ops_clean",
+	},
+]
