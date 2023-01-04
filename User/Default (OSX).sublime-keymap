@@ -59,13 +59,13 @@
   },
 
 
-
   // Terminus
   {
     "keys": ["command+."],
     "command": "lsp_code_actions",
     "context": [{"key": "lsp.session_with_capability", "operand": "codeActionProvider"}]
   },
+  { "keys": ["super+k", "super+o"], "command": "terminus_open" },
   {
     "keys": ["command+option+o"],
     "command": "terminus_open",
