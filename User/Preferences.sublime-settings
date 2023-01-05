@@ -4,9 +4,7 @@
   "font_size": 14,
   "line_padding_bottom": 1,
   // Window Behavior
-  "auto_find_in_selection": true,
   "create_window_at_startup": false,
-  "save_on_focus_lost": true,
   "folder_exclude_patterns": [
     ".git",
     ".idea",
@@ -15,15 +13,21 @@
     "dist",
     "packages"
   ],
-  // I am so picky about whitespace
+  // Search Control
+  "auto_find_in_selection": true,
+  "find_selected_text": true,
+  // Whitespace plugin
   "ensure_single_trailing_newline": true,
   "ignore_whitespace_on_current_line": true,
   "ignore_whitespace_only_lines": false,
   "remove_trailing_whitespace_on_save": true,
+  // I really don't like tabs
   "translate_tabs_to_spaces": true,
   // Packaging
   "ignored_packages": [
+    "Six",
     "Vintage",
+    "Vintageous",
   ],
   "neovintageous_build_version": 12700,
 }

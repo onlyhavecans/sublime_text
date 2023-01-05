@@ -58,13 +58,11 @@
     "context": [{"key": "lsp.session_with_capability", "operand": "codeLensProvider"}]
   },
 
+  // Oragami
+  { "keys": ["super+k", "super+x"], "command": "destroy_pane", "args": {"direction": "self"} },
 
   // Terminus
-  {
-    "keys": ["command+."],
-    "command": "lsp_code_actions",
-    "context": [{"key": "lsp.session_with_capability", "operand": "codeActionProvider"}]
-  },
+  { "keys": ["alt+`"], "command": "toggle_terminus_panel" },
   { "keys": ["super+k", "super+o"], "command": "terminus_open" },
   {
     "keys": ["command+option+o"],
