@@ -26,25 +26,25 @@
     "command": "git",
     "args": {"argv": ["wipe"]}
   },
-  // Use Hub to give me my github intigration
+  // Use the awesome git open alias to set up opens
   {
-    "caption": "Browse in GitHub",
+    "caption": "Open Repository in GitHub/GitLab/Bitbucket",
     "command": "git",
-    "args": {"argv": ["browse"]}
+    "args": { "argv": ["open", "repo"] }
   },
   {
-    "caption": "Fork on GitHub",
+    "caption": "Open Branch in GitHub/GitLab/Bitbucket…",
     "command": "git",
-    "args": {"argv": ["fork", "--org=onlyhavecans"]}
+    "args": { "argv": ["open", "branch", "$select_branch"] }
   },
   {
-    "caption": "Open PR",
+    "caption": "Create Pull Request in GitHub/GitLab/Bitbucket…",
     "command": "git",
-    "args": {"argv": ["pull-request", "--browse"]}
+    "args": { "argv": ["open", "pr", "$select_branch"] }
   },
   {
-    "caption": "Sync",
+    "caption": "Open Tag in GitHub/GitLab/Bitbucket…",
     "command": "git",
-    "args": {"argv": ["sync", "--color=never"]}
+    "args": { "argv": ["open", "tag", "$select_tag"] }
   }
 ]
