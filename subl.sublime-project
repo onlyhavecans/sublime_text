@@ -1,8 +1,17 @@
 {
 	"folders": [
 		{
+			"name": "Sublime Dotfile",
 			"path": "."
 		},
+		{
+			"name": "Sublime-Text Packages",
+			"path": "/Users/dos/Library/Application Support/Sublime Text/Packages"
+		},
+		{
+			"name": "Sublime-Merge Packages",
+			"path": "/Users/dos/Library/Application Support/Sublime Merge/Packages"
+		}
 	],
 	"settings": {
 		"lsp_format_on_save": false,

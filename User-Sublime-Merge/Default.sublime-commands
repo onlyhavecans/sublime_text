@@ -20,14 +20,9 @@
     "command": "git",
     "args": {"argv": ["switch", "--force-create", "$text"]}
   },
-  {
-    "caption": "Interactive rebase onto main",
-    "command": "git",
-    "args": {"argv": ["rebase", "--interactive", "main"]}
-  },
   // Custom command in .gitconfig
   {
-    "caption": "Clean (wipe) all branches",
+    "caption": "Clean (wipe) All Branches",
     "command": "git",
     "args": {"argv": ["wipe"]}
   },
