@@ -16,6 +16,8 @@
 	"settings": {
 		"lsp_format_on_save": false,
 		"tab_size": 2,
+		"translate_tabs_to_spaces": true,
+		"detect_indentation": false,
 		"LSP": {
 			"LSP-pyright": {
 				"settings": {
