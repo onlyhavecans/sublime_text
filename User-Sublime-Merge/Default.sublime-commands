@@ -1,0 +1,55 @@
+// I have a GREAT need for all my own commands
+[
+  {
+    "caption": "Cleanup Repo",
+    "command": "git",
+    "args": {"argv": ["gc", "--aggressive", "--prune=now"]}
+  },
+  {
+    "caption": "Add All",
+    "command": "git",
+    "args": {"argv": ["add", "--all"]}
+  },
+  {
+    "caption": "Switch…",
+    "command": "git",
+    "args": {"argv": ["switch", "$select_branch"]}
+  },
+  {
+    "caption": "Switch Create…",
+    "command": "git",
+    "args": {"argv": ["switch", "--force-create", "$text"]}
+  },
+  {
+    "caption": "Interactive rebase onto main",
+    "command": "git",
+    "args": {"argv": ["rebase", "--interactive", "main"]}
+  },
+  // Custom command in .gitconfig
+  {
+    "caption": "Clean (wipe) all branches",
+    "command": "git",
+    "args": {"argv": ["wipe"]}
+  },
+  // Use Hub to give me my github intigration
+  {
+    "caption": "Browse in GitHub",
+    "command": "git",
+    "args": {"argv": ["browse"]}
+  },
+  {
+    "caption": "Fork on GitHub",
+    "command": "git",
+    "args": {"argv": ["fork", "--org=onlyhavecans"]}
+  },
+  {
+    "caption": "Open PR",
+    "command": "git",
+    "args": {"argv": ["pull-request", "--browse"]}
+  },
+  {
+    "caption": "Sync",
+    "command": "git",
+    "args": {"argv": ["sync", "--color=never"]}
+  }
+]
