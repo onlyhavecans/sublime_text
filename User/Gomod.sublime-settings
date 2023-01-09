@@ -1,6 +1,4 @@
 {
-	"extensions":
-	[
-		"mod"
-	]
+  // change default syntax highlight for *.mod files
+  "extensions": [ "mod" ]
 }

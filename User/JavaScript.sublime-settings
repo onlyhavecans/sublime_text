@@ -1,6 +1,4 @@
 {
-	"extensions":
-	[
-		"omnijs"
-	]
+  // change default syntax highlight for OmniAutomation files
+	"extensions": ["omnijs", "omnifocusjs"]
 }
