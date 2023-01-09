@@ -26,6 +26,7 @@
 		"Origami",
 		"Package Control",
 		"Project Specific Syntax Settings",
+		"python-black",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-ansible-lint",

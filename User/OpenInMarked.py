@@ -11,6 +11,6 @@ class OpenInMarkedCommand(sublime_plugin.TextCommand):
             return
 
         try:
-            subprocess.run(['open', '-a', 'Marked 2', filename], check=True)
+            subprocess.run(["open", "-a", "Marked 2", filename], check=True)
         except subprocess.CalledProcessError as e:
-            sublime.error_message(f'Unable to open with Marked 2: {e}')
+            sublime.error_message(f"Unable to open with Marked 2: {e}")

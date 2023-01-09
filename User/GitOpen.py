@@ -5,7 +5,6 @@ import subprocess
 
 
 class GitOpenCommand(sublime_plugin.TextCommand):
-
     def run(self, edit, **args):
         filename = self.view.file_name()
         if filename is None:
@@ -13,19 +12,18 @@ class GitOpenCommand(sublime_plugin.TextCommand):
             return
 
         directory = os.path.dirname(filename)
-
         self._run_open(directory, args.get("command", "repo"))
 
     def _run_open(self, directory, command):
         completed = subprocess.run(
-            ['git', 'open', command],
-            capture_output=True,
-            cwd=directory
+            ["git", "open", command], capture_output=True, cwd=directory
         )
-
-        if completed.stdout != b'':
+        if completed.stdout != b"":
             print(bytes.decode(completed.stdout))
 
-        if completed.returncode != 0:
+        retcode = completed.returncode
+        if retcode != 0:
             error = bytes.decode(completed.stderr)
-            sublime.error_message(f'Error running git open.\n Error code: {completed.returncode}\n{error}')  # noqa: E501
+            sublime.error_message(
+                f"Error running git open.\n Error code: {retcode}\n{error}"
+            )
