@@ -9,4 +9,26 @@
 		"caption": "Clean Ops Notes",
 		"command": "ops_clean",
 	},
+	// My Custom Git Open
+	{
+		"caption": "Open Repository in GitHub/GitLab/Bitbucket",
+		"command": "git_open",
+		"args": {"command": "repo"}
+	},
+	{
+		"caption": "Open Current Branch in GitHub/GitLab/Bitbucket",
+		"command": "git_open",
+		"args": {"command": "branch"}
+
+	},
+	{
+		"caption": "Open Current Commit in GitHub/GitLab/Bitbucket",
+		"command": "git_open",
+		"args": {"command": "commit"}
+	},
+	{
+		"caption": "Open Pull Request in GitHub/GitLab/Bitbucket",
+		"command": "git_open",
+		"args": {"command": "pr"}
+	},
 ]
