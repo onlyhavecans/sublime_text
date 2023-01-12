@@ -9,26 +9,31 @@
 		"caption": "Clean Ops Notes",
 		"command": "ops_clean",
 	},
-	// My Custom Git Open
+	// My custom git commands
 	{
-		"caption": "Open Repository in GitHub/GitLab/Bitbucket",
-		"command": "git_open",
-		"args": {"command": "repo"}
+		"caption": "Git: Open Repository in GitHub/GitLab/Bitbucket",
+		"command": "git_raw",
+		"args": {"command": "git open repo"}
 	},
 	{
-		"caption": "Open Current Branch in GitHub/GitLab/Bitbucket",
-		"command": "git_open",
-		"args": {"command": "branch"}
+		"caption": "Git: Open Current Branch in GitHub/GitLab/Bitbucket",
+		"command": "git_raw",
+		"args": {"command": "git open branch"}
 
 	},
 	{
-		"caption": "Open Current Commit in GitHub/GitLab/Bitbucket",
-		"command": "git_open",
-		"args": {"command": "commit"}
+		"caption": "Git: Open Current Commit in GitHub/GitLab/Bitbucket",
+		"command": "git_raw",
+		"args": {"command": "git open commit"}
 	},
 	{
-		"caption": "Open Pull Request in GitHub/GitLab/Bitbucket",
-		"command": "git_open",
-		"args": {"command": "pr"}
+		"caption": "Git: Open Pull Request in GitHub/GitLab/Bitbucket",
+		"command": "git_raw",
+		"args": {"command": "git open pr"}
+	},
+	{
+		"caption": "PRs Bad",
+		"command": "git_raw",
+		"args": {"command": "git prs"}
 	},
 ]

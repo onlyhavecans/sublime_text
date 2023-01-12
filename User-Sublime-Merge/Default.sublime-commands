@@ -26,6 +26,12 @@
     "command": "git",
     "args": {"argv": ["wipe"]}
   },
+  // My PRs BAD shortcut
+  {
+    "caption": "PRs Bad",
+    "command": "git",
+    "args": { "argv": ["prs"] }
+  },
   // Use the awesome git open alias to set up opens
   {
     "caption": "Open Repository in GitHub/GitLab/Bitbucket",
