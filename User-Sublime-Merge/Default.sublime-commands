@@ -46,7 +46,7 @@
   {
     "caption": "Create Pull Request in GitHub/GitLab/Bitbucket…",
     "command": "git",
-    "args": { "argv": ["open", "pr", "$select_branch"] }
+    "args": { "argv": ["open", "pr"] }
   },
   {
     "caption": "Open Tag in GitHub/GitLab/Bitbucket…",
