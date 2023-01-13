@@ -4,7 +4,9 @@
 	"paths": {
 		"osx": [
 			"/usr/local/bin",
-			"/opt/homebrew/bin"
+			"/opt/homebrew/bin",
+			"~/.asdf/shims/"
+
 		]
 	},
 }
