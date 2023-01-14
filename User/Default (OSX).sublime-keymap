@@ -58,7 +58,16 @@
     "context": [{"key": "lsp.session_with_capability", "operand": "codeLensProvider"}]
   },
 
-  // Oragami
+  // Show keybinds
+  {
+    "keys": ["super+k", "super+s"],
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/Default/Default (OSX).sublime-keymap",
+    }
+  },
+
+  // Oragami kill
   { "keys": ["super+k", "super+x"], "command": "destroy_pane", "args": {"direction": "self"} },
 
   // Terminus
