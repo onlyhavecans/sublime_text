@@ -6,5 +6,4 @@
     "source.organizeImports": true,
   },
   "show_inlay_hints": true,
-  "inhibit_word_completions": true,
 }

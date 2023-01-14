@@ -8,6 +8,9 @@
   "color_scheme": "Monokai Pro.sublime-color-scheme",
   "monokai_pro_highlight_open_folders": true,
   "monokai_pro_small_scrollbar": true,
+  // JetBrains is not a good UI Font-Face
+  "monokai_pro_ui_font_face": "system",
+  "monokai_pro_sidebar_font_size": 13,
   // Window Behavior
   "folder_exclude_patterns": [
     ".git",
