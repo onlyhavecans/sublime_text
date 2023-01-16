@@ -1,0 +1,15 @@
+{
+  "rules": [
+    { "selector": "text.html.basic", "cmd": ["tidy"] },
+    // { "selector": "source.json", "cmd": ["My kingdom for a json formattor i like"] },
+    { "selector": "source.yaml", "cmd": ["yamlfmt", "-in"], "format_on_save": false },
+    { "selector": "source.python", "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"] },
+      // the above in individual steps:
+      // { "selector": "source.python", "cmd": ["usort", "format", "-"] },
+      // { "selector": "source.python", "cmd": ["black", "-q", "-"] },
+    { "selector": "source.rust", "cmd": ["rustfmt"] },
+    { "selector": "source.go", "cmd": ["gofumpt"] },
+  ],
+  "timeout": 15,
+  "format_on_save": true,
+}
