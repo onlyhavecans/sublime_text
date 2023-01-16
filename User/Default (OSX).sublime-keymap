@@ -67,6 +67,9 @@
     }
   },
 
+  // Dash
+  { "keys": ["super+k", "super+k"], "command": "dash_doc"},
+
   // Oragami kill
   { "keys": ["super+k", "super+x"], "command": "destroy_pane", "args": {"direction": "self"} },
 

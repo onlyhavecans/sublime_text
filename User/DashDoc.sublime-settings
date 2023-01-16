@@ -1,0 +1,5 @@
+{
+  "syntax_docset_map": {
+    "ruby": ["ruby", "rubygems", "rails", "chef"],
+  }
+}
