@@ -2,5 +2,5 @@
   <content><![CDATA[require 'pry';binding.pry]]></content>
   <tabTrigger>pry</tabTrigger>
   <scope>source.ruby</scope>
-  <description>Pry Brealpoint</description>
+  <description>Pry Breakpoint</description>
 </snippet>
