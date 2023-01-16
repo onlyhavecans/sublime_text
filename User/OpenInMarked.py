@@ -1,6 +1,7 @@
+import subprocess
+
 import sublime
 import sublime_plugin
-import subprocess
 
 
 class OpenInMarkedCommand(sublime_plugin.TextCommand):
