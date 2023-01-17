@@ -6,4 +6,14 @@
     "source.organizeImports": true,
   },
   "show_inlay_hints": true,
+  "clients": {
+    "ruby": {
+      "enabled": true,
+      "command": ["~/.asdf/shims/solargraph", "stdio"],
+      "selector": "source.ruby | text.html.ruby",
+      "initializationOptions": {
+        "diagnostics": false
+      }
+    }
+  }
 }

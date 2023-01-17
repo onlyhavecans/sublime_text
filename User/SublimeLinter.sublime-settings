@@ -3,10 +3,9 @@
 	"no_column_highlights_line": true,
 	"paths": {
 		"osx": [
+			"~/.asdf/shims/",
 			"/usr/local/bin",
 			"/opt/homebrew/bin",
-			"~/.asdf/shims/"
-
 		]
 	},
 	"gutter_theme": "Packages/Theme - Monokai Pro/Monokai Pro.gutter-theme",
