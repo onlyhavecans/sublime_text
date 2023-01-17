@@ -2,6 +2,7 @@
   // Always my favorite font
   "font_face": "JetBrains Mono",
   "font_size": 14,
+  "font_options": ["dlig"],
   "line_padding_bottom": 1,
   // I bought a theme
   "theme": "Monokai Pro.sublime-theme",

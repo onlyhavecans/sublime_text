@@ -1,6 +1,6 @@
 // Settings in here override those in "LSP-rust-analyzer/LSP-rust-analyzer.sublime-settings"
 {
   "settings": {
-    "rust-analyzer.checkOnSave.command": "clippy"
+    "rust-analyzer.check.command": "clippy"
   }
 }
