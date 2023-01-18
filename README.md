@@ -6,9 +6,13 @@ I use [HomeSchick](https://github.com/andsens/homeshick) to manage my configs. S
 
 ## Folders of Note
 
-The `Users` folder is my Sublime Text ~~4~~ Users Package
-The `Users-Sublime-Merge` is unsurprisingly my Sublime Merge Users Package
-The `home/bin` has my shell scripts I use to enhance both
+- `Users` is my Sublime Text ~~4~~ Users Package
+- `Users-Sublime-Merge` is unsurprisingly my Sublime Merge Users Package
+- `home/bin` has my shell scripts I use to enhance both
+
+## Scripts
+
+Some commands relies on scripts and git aliases that are all found in my [dotfiles](https://github.com/onlyhavecans/dotfiles)
 
 ## Sublime Merge and GitHub/GitLab/Bitbucket Integration
 
