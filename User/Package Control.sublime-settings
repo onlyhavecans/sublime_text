@@ -9,6 +9,7 @@
 		"Ansible Vault",
 		"ChannelRepositoryTools",
 		"Chef",
+		"ColorHelper",
 		"DashDoc",
 		"Direnv",
 		"DocBlockr",
