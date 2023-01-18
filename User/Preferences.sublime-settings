@@ -18,6 +18,7 @@
     ".idea",
     ".vscode",
     "target",
+    "tmp",
     "dist",
     "packages"
   ],
