@@ -32,18 +32,14 @@
 			"priority": 2,
 			"scope": "region.orangish",
 			"icon": "warning",
-			"types": [
-				"warning"
-			]
+			"types": ["warning"]
 		},
 		{
 			"mark_style": "none",
 			"priority": 1,
 			"scope": "region.redish",
 			"icon": "error",
-			"types": [
-				"error"
-			]
+			"types": ["error"]
 		},
 	]
 }

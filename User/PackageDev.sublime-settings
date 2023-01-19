@@ -1,5 +1,5 @@
 {
-    // Recommended by LSP-json
-    "settings.auto_complete": false,
-    "settings.tooltip": false
+  // Recommended by LSP-json
+  "settings.auto_complete": false,
+  "settings.tooltip": false
 }
