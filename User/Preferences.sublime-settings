@@ -1,7 +1,7 @@
 {
   // Always my favorite font
-  "font_face": "JetBrains Mono",
-  "font_size": 14,
+  "font_face": "PragmataPro Mono Liga",
+  "font_size": 16,
   "font_options": ["dlig"],
   "line_padding_bottom": 1,
   // I bought a theme
@@ -9,7 +9,7 @@
   "color_scheme": "Monokai Pro.sublime-color-scheme",
   "monokai_pro_highlight_open_folders": true,
   "monokai_pro_small_scrollbar": true,
-  // JetBrains is not a good UI Font-Face
+  // I do not like programming fonts in UI
   "monokai_pro_ui_font_face": "system",
   "monokai_pro_sidebar_font_size": 13,
   // Window Behavior
