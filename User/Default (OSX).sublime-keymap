@@ -1,5 +1,8 @@
 [
-  // LSP/IDE commands
+  /*
+  LSP/IDE commands
+  */
+
   // Show a list of available LSP commands
   {
     "keys": ["f1"],
@@ -57,8 +60,19 @@
     "command": "lsp_code_lens",
     "context": [{"key": "lsp.session_with_capability", "operand": "codeLensProvider"}]
   },
+  // Pop Goto Diagnostics in Window
+  { "keys": ["f8"], "command": "lsp_goto_diagnostic", "args": {"uri": "$view_uri"} },
+  // Pop Goto Diagnostics in Project
+  { "keys": ["shift+f8"], "command": "lsp_goto_diagnostic"},
+  // Jump to next Diagnostic in project
+  { "keys": ["ctrl+f8"], "command": "lsp_next_diagnostic", },
 
-  // Show keybinds
+
+  /*
+  Phew! End LSP section
+  */
+
+  // Show keybinds. How meta
   {
     "keys": ["super+k", "super+s"],
     "command": "edit_settings",
@@ -67,15 +81,19 @@
     }
   },
 
-  // Dash
+  // Pop Sublime Merge
+  {"keys": ["super+shift+g"], "command": "sublime_merge_open_repo" },
+
+  // Pop Dash
   { "keys": ["super+k", "super+k"], "command": "dash_doc"},
 
-  // Oragami kill
+  // Oragami doesn't come with kill?
   { "keys": ["super+k", "super+x"], "command": "destroy_pane", "args": {"direction": "self"} },
 
   // Terminus
-  { "keys": ["alt+`"], "command": "toggle_terminus_panel" },
   { "keys": ["super+k", "super+o"], "command": "terminus_open" },
+  { "keys": ["super+k", "super+x"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] },
+  // This opens a half screen instead odf the whole thing
   {
     "keys": ["command+option+o"],
     "command": "terminus_open",
@@ -86,9 +104,5 @@
       ]
     }
   },
-  {
-    "keys": ["command+option+w"],
-    "command": "terminus_close",
-    "context": [{ "key": "terminus_view"}]
-  }
+  { "keys": ["command+option+x"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] },
 ]
