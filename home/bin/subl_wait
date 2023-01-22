@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+##
+# This stub makes using sublime as EDITOR work better
+##
+
+subl --new-window --wait "$@"
