@@ -81,6 +81,9 @@
     }
   },
 
+  // close ll
+  { "keys": ["super+alt+w"], "command": "close_all" },
+
   // Pop Sublime Merge
   {"keys": ["super+shift+g"], "command": "sublime_merge_open_repo" },
 
