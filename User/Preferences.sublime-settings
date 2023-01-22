@@ -34,10 +34,10 @@
   "ignore_whitespace_on_current_line": true,
   // Packaging
   "ignored_packages": [
+    "Rust",
     "Six",
     "Vintage",
     "Vintageous",
-    "Rust",
   ],
   "neovintageous_build_version": 12700,
 }

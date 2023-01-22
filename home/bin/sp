@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+## Quck command for opening projects
+
+if local=$(compgen -G "*.sublime-project"); then
+    echo "Using local project: $local"
+    subl --project "./$local"
+    exit 0
+fi
+
+projects_dir=~/Code/sublime_projects/
+current_project=$(basename "$PWD")
+saved_project="${projects_dir}${current_project}.sublime-project"
+
+if [[ -f "$saved_project" ]]; then
+    echo "Using saved project: $saved_project"
+    subl --new-window --project "$saved_project"
+    exit 0
+fi
+
+echo "No project found! Opening directory"
+subl .
