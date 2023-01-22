@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+BASE_DIR=~/Code
+DESTINATION=~/Code/sublime_projects/
+
+## Filenames have spaces
+while IFS= read -r project; do
+  project_dir=$(dirname "$project")
+  project_file=$(basename "$project")
+  workspace="$project_dir/${project_file%.*}.sublime-workspace"
+
+  ## Only if NOT already committed to the repo
+  if git -C "$project_dir" rev-parse --verify --quiet HEAD:"$project_file" &> /dev/null; then
+    echo "!! Skipping project committed project: $project"
+  else
+    echo "Moving: $project"
+    mv "$project"   "$DESTINATION"
+    mv "$workspace" "$DESTINATION"
+  fi
+done < <(fd --no-ignore --type file --extension sublime-project . "$BASE_DIR" )
