@@ -14,6 +14,10 @@ I use [HomeSchick](https://github.com/andsens/homeshick) to manage my configs. S
 
 Some commands relies on scripts and git aliases that are all found in my [dotfiles](https://github.com/onlyhavecans/dotfiles)
 
+## Using Sublime Text as EDITOR
+
+I have found that the `subl` command line has some gotchas when used as EDITOR so I have a `subl_wait` script which lets me use sublime for things like `crontab -e`.
+
 ## Sublime Merge and GitHub/GitLab/Bitbucket Integration
 
 I use an amazing git alias found on [the Sublime Merge Discourse Forum](https://forum.sublimetext.com/t/github-gitlab-bitbucket-integration-commands-menu-items/53893).
