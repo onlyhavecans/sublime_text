@@ -1,39 +1,38 @@
 [
-	// Open with marked
-	{
-		"caption": "Marked 2: Open In",
-		"command": "open_in_marked"
-	},
-	// Ops Report Cleaner
-	{
-		"caption": "Clean Ops Notes",
-		"command": "ops_clean",
-	},
-	// My custom git commands
-	{
-		"caption": "Git: Open Repository in GitHub/GitLab/Bitbucket",
-		"command": "git_raw",
-		"args": {"command": "git open repo"}
-	},
-	{
-		"caption": "Git: Open Current Branch in GitHub/GitLab/Bitbucket",
-		"command": "git_raw",
-		"args": {"command": "git open branch"}
-
-	},
-	{
-		"caption": "Git: Open Current Commit in GitHub/GitLab/Bitbucket",
-		"command": "git_raw",
-		"args": {"command": "git open commit"}
-	},
-	{
-		"caption": "Git: Open Pull Request in GitHub/GitLab/Bitbucket",
-		"command": "git_raw",
-		"args": {"command": "git open pr"}
-	},
-	{
-		"caption": "PRs Bad",
-		"command": "git_raw",
-		"args": {"command": "git prs"}
-	},
+  // Open with marked
+  {
+    "caption": "Marked 2: Open In",
+    "command": "open_in_marked"
+  },
+  // Ops Report Cleaner
+  {
+    "caption": "Clean Ops Notes",
+    "command": "ops_clean"
+  },
+  // My custom git commands
+  {
+    "caption": "Git: Open Repository in GitHub/GitLab/Bitbucket",
+    "command": "git_raw",
+    "args": { "command": "git open repo" }
+  },
+  {
+    "caption": "Git: Open Current Branch in GitHub/GitLab/Bitbucket",
+    "command": "git_raw",
+    "args": { "command": "git open branch" }
+  },
+  {
+    "caption": "Git: Open Current Commit in GitHub/GitLab/Bitbucket",
+    "command": "git_raw",
+    "args": { "command": "git open commit" }
+  },
+  {
+    "caption": "Git: Open Pull Request in GitHub/GitLab/Bitbucket",
+    "command": "git_raw",
+    "args": { "command": "git open pr" }
+  },
+  {
+    "caption": "PRs Bad",
+    "command": "git_raw",
+    "args": { "command": "git prs" }
+  }
 ]

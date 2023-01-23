@@ -4,69 +4,69 @@
   */
 
   // Show a list of available LSP commands
-  {
-    "keys": ["f1"],
-    "command": "show_overlay",
-    "args": {"overlay": "command_palette", "text": "LSP: "}
-  },
+  { "keys": ["f1"], "command": "show_overlay", "args": { "overlay": "command_palette", "text": "LSP: " } },
   // Rename Symbol
   {
     "keys": ["f2"],
     "command": "lsp_symbol_rename",
-    "context": [{"key": "lsp.session_with_capability", "operand": "renameProvider"}]
+    "context": [{ "key": "lsp.session_with_capability", "operand": "renameProvider" }]
   },
   // Format File
   {
     "keys": ["f3"],
     "command": "lsp_format_document",
-    "context": [{"key": "lsp.session_with_capability", "operand": "documentFormattingProvider | documentRangeFormattingProvider"}]
+    "context": [
+      {
+        "key": "lsp.session_with_capability",
+        "operand": "documentFormattingProvider | documentRangeFormattingProvider"
+      }
+    ]
   },
   // Find References (side-by-side)
   {
     "keys": ["shift+f12"],
     "command": "lsp_symbol_references",
-    "args": {"side_by_side": true, "fallback": false},
-    "context": [{"key": "lsp.session_with_capability", "operand": "referencesProvider"}]
+    "args": { "side_by_side": true, "fallback": false },
+    "context": [{ "key": "lsp.session_with_capability", "operand": "referencesProvider" }]
   },
   // Goto Definition
   {
     "keys": ["f12"],
     "command": "lsp_symbol_definition",
-    "args": {"side_by_side": false, "force_group": true, "fallback": false, "group": -1},
+    "args": { "side_by_side": false, "force_group": true, "fallback": false, "group": -1 },
     "context": [
-      {"key": "lsp.session_with_capability", "operand": "definitionProvider"},
-      {"key": "auto_complete_visible", "operand": false}
+      { "key": "lsp.session_with_capability", "operand": "definitionProvider" },
+      { "key": "auto_complete_visible", "operand": false }
     ]
   },
   // Goto Definition (side-by-side)
   {
     "keys": ["primary+f12"],
     "command": "lsp_symbol_definition",
-    "args": {"side_by_side": true, "force_group": true, "fallback": false, "group": -1},
+    "args": { "side_by_side": true, "force_group": true, "fallback": false, "group": -1 },
     "context": [
-      {"key": "lsp.session_with_capability", "operand": "definitionProvider"},
-      {"key": "auto_complete_visible", "operand": false}
+      { "key": "lsp.session_with_capability", "operand": "definitionProvider" },
+      { "key": "auto_complete_visible", "operand": false }
     ]
   },
   // Run Code Action
   {
     "keys": ["command+."],
     "command": "lsp_code_actions",
-    "context": [{"key": "lsp.session_with_capability", "operand": "codeActionProvider"}]
+    "context": [{ "key": "lsp.session_with_capability", "operand": "codeActionProvider" }]
   },
   // Run Code Lens
   {
     "keys": ["ctrl+r"],
     "command": "lsp_code_lens",
-    "context": [{"key": "lsp.session_with_capability", "operand": "codeLensProvider"}]
+    "context": [{ "key": "lsp.session_with_capability", "operand": "codeLensProvider" }]
   },
   // Pop Goto Diagnostics in Window
-  { "keys": ["f8"], "command": "lsp_goto_diagnostic", "args": {"uri": "$view_uri"} },
+  { "keys": ["f8"], "command": "lsp_goto_diagnostic", "args": { "uri": "$view_uri" } },
   // Pop Goto Diagnostics in Project
-  { "keys": ["shift+f8"], "command": "lsp_goto_diagnostic"},
+  { "keys": ["shift+f8"], "command": "lsp_goto_diagnostic" },
   // Jump to next Diagnostic in project
-  { "keys": ["ctrl+f8"], "command": "lsp_next_diagnostic", },
-
+  { "keys": ["ctrl+f8"], "command": "lsp_next_diagnostic" },
 
   /*
   Phew! End LSP section
@@ -77,7 +77,7 @@
     "keys": ["super+k", "super+s"],
     "command": "edit_settings",
     "args": {
-      "base_file": "${packages}/Default/Default (OSX).sublime-keymap",
+      "base_file": "${packages}/Default/Default (OSX).sublime-keymap"
     }
   },
 
@@ -85,27 +85,25 @@
   { "keys": ["super+alt+w"], "command": "close_all" },
 
   // Pop Sublime Merge
-  {"keys": ["super+shift+g"], "command": "sublime_merge_open_repo" },
+  { "keys": ["super+shift+g"], "command": "sublime_merge_open_repo" },
 
   // Pop Dash
-  { "keys": ["super+k", "super+k"], "command": "dash_doc"},
+  { "keys": ["super+k", "super+k"], "command": "dash_doc" },
 
   // Oragami doesn't come with kill?
-  { "keys": ["super+k", "super+x"], "command": "destroy_pane", "args": {"direction": "self"} },
+  { "keys": ["super+k", "super+x"], "command": "destroy_pane", "args": { "direction": "self" } },
 
   // Terminus
   { "keys": ["super+k", "super+o"], "command": "terminus_open" },
-  { "keys": ["super+k", "super+x"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] },
+  { "keys": ["super+k", "super+x"], "command": "terminus_close", "context": [{ "key": "terminus_view" }] },
   // This opens a half screen instead odf the whole thing
   {
     "keys": ["command+option+o"],
     "command": "terminus_open",
     "args": {
       "cwd": "${directory_path:${folder}}",
-      "post_window_hooks": [
-        ["carry_file_to_pane", {"direction": "down"}]
-      ]
+      "post_window_hooks": [["carry_file_to_pane", { "direction": "down" }]]
     }
   },
-  { "keys": ["command+option+x"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] },
+  { "keys": ["command+option+x"], "command": "terminus_close", "context": [{ "key": "terminus_view" }] }
 ]

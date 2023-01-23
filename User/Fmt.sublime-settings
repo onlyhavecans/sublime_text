@@ -1,11 +1,12 @@
 {
   "rules": [
     { "selector": "text.html.basic", "cmd": ["tidy"] },
-    // { "selector": "source.json", "cmd": ["My kingdom for a json formattor i like"] },
-    { "selector": "source.python", "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"] },
-      // the above in individual steps:
-      // { "selector": "source.python", "cmd": ["usort", "format", "-"] },
-      // { "selector": "source.python", "cmd": ["black", "-q", "-"] },
+    { "selector": "source.json", "cmd": ["npx", "prettier", "--parser", "json"] },
+    { "selector": "source.javascript", "cmd": ["npx", "prettier", "--parser", "typescript"] },
+    { "selector": "source.python", "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"] }
+    // the above in individual steps:
+    // { "selector": "source.python", "cmd": ["usort", "format", "-"] },
+    // { "selector": "source.python", "cmd": ["black", "-q", "-"] },
 
     // The following have been offloaded to LSP
     // { "selector": "source.yaml", "cmd": ["yamlfmt", "-in"], "format_on_save": false },
@@ -13,5 +14,5 @@
     // { "selector": "source.go", "cmd": ["gofumpt"] },
   ],
   "timeout": 15,
-  "format_on_save": true,
+  "format_on_save": true
 }

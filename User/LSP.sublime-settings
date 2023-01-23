@@ -2,7 +2,7 @@
 {
   "lsp_code_actions_on_save": {
     "source.fixAll": true,
-    "source.organizeImports": true,
+    "source.organizeImports": true
   },
   "show_inlay_hints": true,
   "clients": {

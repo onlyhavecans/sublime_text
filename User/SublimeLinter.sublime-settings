@@ -1,45 +1,41 @@
 // SublimeLinter Settings - User
 {
-	"no_column_highlights_line": true,
-	"paths": {
-		"osx": [
-			"~/.asdf/shims/",
-			"/usr/local/bin",
-			"/opt/homebrew/bin",
-		]
-	},
-	"gutter_theme": "Packages/Theme - Monokai Pro/Monokai Pro.gutter-theme",
-	"styles": [
-		// Adds annotation with full message in hover
-		{
-			"priority": 2,
-			"types": ["warning"],
-			"scope": "region.yellowish markup.warning.sublime_linter",
-			"annotation": "{linter}:{code}<br>&nbsp;&nbsp;{msg}",
-			"phantom": "",
-		},
-		{
-			"priority": 1,
-			"mark_style": "outline",
-			"icon": "dot",
-			"scope": "region.redish markup.error.sublime_linter",
-			"annotation": "{linter}:{code}<br>&nbsp;&nbsp;{msg}",
-			"phantom": "",
-		},
-		// Gutter marks matching monokai.pro
-		{
-			"mark_style": "none",
-			"priority": 2,
-			"scope": "region.orangish",
-			"icon": "warning",
-			"types": ["warning"]
-		},
-		{
-			"mark_style": "none",
-			"priority": 1,
-			"scope": "region.redish",
-			"icon": "error",
-			"types": ["error"]
-		},
-	]
+  "no_column_highlights_line": true,
+  "paths": {
+    "osx": ["~/.asdf/shims/", "/usr/local/bin", "/opt/homebrew/bin"]
+  },
+  "gutter_theme": "Packages/Theme - Monokai Pro/Monokai Pro.gutter-theme",
+  "styles": [
+    // Adds annotation with full message in hover
+    {
+      "priority": 2,
+      "types": ["warning"],
+      "scope": "region.yellowish markup.warning.sublime_linter",
+      "annotation": "{linter}:{code}<br>&nbsp;&nbsp;{msg}",
+      "phantom": ""
+    },
+    {
+      "priority": 1,
+      "mark_style": "outline",
+      "icon": "dot",
+      "scope": "region.redish markup.error.sublime_linter",
+      "annotation": "{linter}:{code}<br>&nbsp;&nbsp;{msg}",
+      "phantom": ""
+    },
+    // Gutter marks matching monokai.pro
+    {
+      "mark_style": "none",
+      "priority": 2,
+      "scope": "region.orangish",
+      "icon": "warning",
+      "types": ["warning"]
+    },
+    {
+      "mark_style": "none",
+      "priority": 1,
+      "scope": "region.redish",
+      "icon": "error",
+      "types": ["error"]
+    }
+  ]
 }
