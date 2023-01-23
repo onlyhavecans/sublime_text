@@ -1,9 +1,15 @@
 {
   "rules": [
     { "selector": "text.html.basic", "cmd": ["tidy"] },
-    { "selector": "source.json", "cmd": ["npx", "prettier", "--parser", "json"] },
-    { "selector": "source.javascript", "cmd": ["npx", "prettier", "--parser", "typescript"] },
-    { "selector": "source.python", "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"] }
+    { "selector": "source.json", "cmd": ["prettier", "--parser", "json"] },
+    {
+      "selector": "source.javascript",
+      "cmd": ["prettier", "--parser", "typescript"]
+    },
+    {
+      "selector": "source.python",
+      "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"]
+    }
     // the above in individual steps:
     // { "selector": "source.python", "cmd": ["usort", "format", "-"] },
     // { "selector": "source.python", "cmd": ["black", "-q", "-"] },
