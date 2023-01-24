@@ -13,7 +13,16 @@
   "monokai_pro_ui_font_face": "system",
   "monokai_pro_sidebar_font_size": 13,
   // Window Behavior
-  "folder_exclude_patterns": [".git", ".idea", ".vscode", "target", "tmp", "dist", "packages"],
+  "folder_exclude_patterns": [
+    ".git",
+    ".idea",
+    ".vscode",
+    ".venv",
+    "target",
+    "tmp",
+    "dist",
+    "packages"
+  ],
   // Search Control
   "auto_find_in_selection": true,
   "find_selected_text": true,
