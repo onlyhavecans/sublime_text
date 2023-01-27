@@ -2,5 +2,6 @@
 
 {
   "git_status_in_status_bar": false,
-  "vintageous_friendly": true
+  "vintageous_friendly": true,
+  "vintageous_enter_insert_mode": true
 }
