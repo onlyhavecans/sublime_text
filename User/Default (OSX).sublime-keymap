@@ -90,6 +90,10 @@
   // Pop Dash
   { "keys": ["super+k", "super+k"], "command": "dash_doc" },
 
+  // Format things
+  {"keys": ["super+k", "super+j"], "command": "fmt_format_buffer"},
+  {"keys": ["super+k", "super+l"], "command": "fmt_format_selection"},
+
   // Oragami doesn't come with kill?
   { "keys": ["super+k", "super+x"], "command": "destroy_pane", "args": { "direction": "self" } },
 

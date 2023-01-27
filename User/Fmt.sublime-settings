@@ -19,6 +19,5 @@
     // { "selector": "source.rust", "cmd": ["rustfmt"] },
     // { "selector": "source.go", "cmd": ["gofumpt"] },
   ],
-  "timeout": 15,
-  "format_on_save": true
+  "timeout": 15
 }
