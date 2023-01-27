@@ -87,12 +87,27 @@
   // Pop Sublime Merge
   { "keys": ["super+shift+g"], "command": "sublime_merge_open_repo" },
 
+  // Pop git inside
+  { "keys": ["super+k", "super+g"], "command": "gs_show_status" },
+
   // Pop Dash
   { "keys": ["super+k", "super+k"], "command": "dash_doc" },
 
-  // Format things
+  // Format things Use LSP if available and fall back to fmt if not
   {"keys": ["super+k", "super+j"], "command": "fmt_format_buffer"},
   {"keys": ["super+k", "super+l"], "command": "fmt_format_selection"},
+  // Format File LSP
+  {
+    "keys": ["super+k", "super+j"],
+    "command": "lsp_format_document",
+    "context": [{"key": "lsp.session_with_capability", "operand": "documentFormattingProvider | documentRangeFormattingProvider"}]
+  },
+  // Format Selection LSP
+  {
+    "keys": ["super+k", "super+l"],
+    "command": "lsp_format_document_range",
+    "context": [{"key": "lsp.session_with_capability", "operand": "documentRangeFormattingProvider"}]
+  },
 
   // Oragami doesn't come with kill?
   { "keys": ["super+k", "super+x"], "command": "destroy_pane", "args": { "direction": "self" } },
