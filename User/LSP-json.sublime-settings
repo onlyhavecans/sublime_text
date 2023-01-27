@@ -1,6 +1,8 @@
 // Settings in here override those in "LSP-json/LSP-json.sublime-settings"
 {
   "disabled_capabilities": {
-    "colorProvider": true
+    "colorProvider": true,
+    "documentFormattingProvider": true,
+    "documentRangeFormattingProvider": true,
   }
 }
