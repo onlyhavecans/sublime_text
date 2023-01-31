@@ -114,7 +114,7 @@
 
   // Terminus
   { "keys": ["super+k", "super+o"], "command": "terminus_open" },
-  { "keys": ["super+k", "super+x"], "command": "terminus_close", "context": [{ "key": "terminus_view" }] },
+  { "keys": ["super+w"], "command": "terminus_close", "context": [{ "key": "terminus_view" }] },
   // This opens a half screen instead odf the whole thing
   {
     "keys": ["command+option+o"],
@@ -124,5 +124,4 @@
       "post_window_hooks": [["carry_file_to_pane", { "direction": "down" }]]
     }
   },
-  { "keys": ["command+option+x"], "command": "terminus_close", "context": [{ "key": "terminus_view" }] }
 ]
