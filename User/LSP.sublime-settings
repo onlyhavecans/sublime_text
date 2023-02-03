@@ -7,7 +7,7 @@
   },
   "show_inlay_hints": true,
   "clients": {
-    "LSP-solargraph": {
+    "solargraph": {
       "enabled": true,
       "command": ["~/.asdf/shims/solargraph", "stdio"],
       "selector": "source.ruby | text.html.ruby",

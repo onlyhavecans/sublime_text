@@ -3,12 +3,9 @@
     { "selector": "text.html.basic", "cmd": ["tidy"] },
     { "selector": "source.json", "cmd": ["prettier", "--parser", "json"] },
     {
-      "selector": "source.javascript",
-      "cmd": ["prettier", "--parser", "typescript"]
-    },
-    {
       "selector": "source.python",
-      "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"]
+      "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"],
+      "format_on_save": true
     }
     // the above in individual steps:
     // { "selector": "source.python", "cmd": ["usort", "format", "-"] },
