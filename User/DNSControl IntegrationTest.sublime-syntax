@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/syntax.html
+name: DNSControl Integration Build Results
+scope: source.build_results
+hidden: true
+
+variables:
+  result_prefix: "--- "
+
+contexts:
+  main:
+    # Integration tests do not have useful file info so match test name
+    - match: "=== RUN .+"
+      scope: entity.name.filename
+    - match: "^FAIL .+"
+      scope: message.error markup.deleted.diff
+    - match: "^ok .+"
+      scope: message.ok markup.inserted.diff
+    - match: '^\[.+\]$'
+      scope: comment
+    - match: '{{result_prefix}}(PASS)\b'
+      captures:
+        1: markup.inserted.diff meta.test_ok.dnscontrol
+    - match: '{{result_prefix}}(SKIP)\b'
+      captures:
+        1: markup.changed.diff meta.test_ignored.dnscontol
+    - match: '{{result_prefix}}(FAIL)\b'
+      captures:
+        1: markup.deleted.diff meta.test_failed.dnscontrol
