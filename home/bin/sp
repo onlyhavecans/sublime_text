@@ -1,5 +1,19 @@
 #!/usr/bin/env bash
-## Quck command for opening projects
+## Quck command for making and opening projects
+set -e
+
+
+function new_project_for_pwd {
+    ldir=~/${PWD#"$HOME"/}
+    name=${PWD##*/}.sublime-project
+    cat >"$HOME/Code/sublime_projects/$name"  <<EOF
+{
+  "folders": [{ "path": "${ldir}" }],
+  "settings": {}
+}
+EOF
+}
+
 
 if local=$(compgen -G "*.sublime-project"); then
     echo "Using local project: $local"
@@ -11,11 +25,10 @@ projects_dir=~/Code/sublime_projects/
 current_project=$(basename "$PWD")
 saved_project="${projects_dir}${current_project}.sublime-project"
 
-if [[ -f "$saved_project" ]]; then
-    echo "Using saved project: $saved_project"
-    subl --new-window --project "$saved_project"
-    exit 0
+if [[ ! -f "$saved_project" ]]; then
+    echo "No project found! Creating a new one!"
+    new_project_for_pwd
 fi
 
-echo "No project found! Opening directory"
-subl .
+echo "Using saved project: $saved_project"
+subl --new-window --project "$saved_project"
