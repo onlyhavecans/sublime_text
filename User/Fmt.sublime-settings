@@ -6,13 +6,12 @@
       "selector": "source.python",
       "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"],
       "format_on_save": true
-    }
+    },
     // the above in individual steps:
     // { "selector": "source.python", "cmd": ["usort", "format", "-"] },
     // { "selector": "source.python", "cmd": ["black", "-q", "-"] },
 
     // The following have been offloaded to LSP
-    // { "selector": "source.yaml", "cmd": ["yamlfmt", "-in"], "format_on_save": false },
     // { "selector": "source.rust", "cmd": ["rustfmt"] },
     // { "selector": "source.go", "cmd": ["gofumpt"] },
   ],
