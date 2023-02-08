@@ -1,3 +1,4 @@
 {
-  "rust_syntax_checking": false
+  "rust_syntax_checking": false,
+  "lsp_format_on_save": true,
 }

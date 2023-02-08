@@ -1,3 +1,4 @@
 {
-  "PATH": "/Users/dos/go"
+  "PATH": "/Users/dos/go",
+  "lsp_format_on_save": true,
 }
