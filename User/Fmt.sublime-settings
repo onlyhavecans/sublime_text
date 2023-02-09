@@ -2,6 +2,7 @@
   "rules": [
     { "selector": "text.html.basic", "cmd": ["tidy"] },
     { "selector": "source.json", "cmd": ["prettier", "--parser", "json"] },
+    { "selector": "source.ruby", "cmd": "bundle rubocop -A --stdin" },
     {
       "selector": "source.python",
       "cmd": ["$HOME/.asdf/shims/ufmt", "format", "-"],
