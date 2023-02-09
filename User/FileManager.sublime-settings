@@ -1,0 +1,9 @@
+// Your settings for FileManager. See the default file to see the different options.
+{
+    "terminals": [
+        {
+            "name": "Alacritty",
+            "cmd": ["/Applications/Alacritty.app/Contents/MacOS/alacritty", "--working-directory", "$cwd"]
+        }
+    ]
+}
