@@ -4,11 +4,11 @@ set -e
 
 
 function new_project_for_pwd {
-    ldir=~/${PWD#"$HOME"/}
+    ldir="${PWD#"$HOME"/}"
     name=${PWD##*/}.sublime-project
     cat >"$HOME/Code/sublime_projects/$name"  <<EOF
 {
-  "folders": [{ "path": "${ldir}" }],
+  "folders": [{ "path": "~/${ldir}" }],
   "settings": {}
 }
 EOF
