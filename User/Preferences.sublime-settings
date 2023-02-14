@@ -3,8 +3,8 @@
   "font_face": "PragmataPro Mono Liga",
   "font_size": 16,
   "font_options": ["dlig"],
-  "line_padding_bottom": 1,
-  // I bought a theme
+  "line_padding_bottom": 2,
+  // I bought a combo colorscheme & theme
   "theme": "Monokai Pro.sublime-theme",
   "color_scheme": "Monokai Pro.sublime-color-scheme",
   "monokai_pro_highlight_open_folders": true,
@@ -16,12 +16,12 @@
   "folder_exclude_patterns": [
     ".git",
     ".idea",
-    ".vscode",
     ".venv",
+    ".vscode",
+    "dist",
+    "packages",
     "target",
     "tmp",
-    "dist",
-    "packages"
   ],
   // Search Control
   "auto_find_in_selection": true,
