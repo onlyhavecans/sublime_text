@@ -30,5 +30,12 @@ if [[ ! -f "$saved_project" ]]; then
     new_project_for_pwd
 fi
 
+WINDOW=""
+if [ "$TERMINUS_SUBLIME" == 1 ]; then
+    echo "We are in terminus, reuse window"
+else
+    WINDOW=--launch-or-new-window
+fi
+
 echo "Using saved project: $saved_project"
-subl --new-window --project "$saved_project"
+subl "${WINDOW}" --project "$saved_project"
