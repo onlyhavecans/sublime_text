@@ -37,9 +37,7 @@
   "neovintageous_build_version": 12700,
   "ignored_packages": [
     "Rust",
-    "Six",
     "Vintage",
-    "Vintageous",
   ],
   "index_files": true,
 }
